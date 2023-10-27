@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.1](https://github.com/stevearc/overseer.nvim/compare/v1.3.0...v1.3.1) (2023-10-27)
+
+
+### Bug Fixes
+
+* can close overseer sidebar if it's the last window open ([#218](https://github.com/stevearc/overseer.nvim/issues/218)) ([ffd7be7](https://github.com/stevearc/overseer.nvim/commit/ffd7be72399715112e1a4908d6587fa7ea805a26))
+* cargo-make task search pattern ([#227](https://github.com/stevearc/overseer.nvim/issues/227)) ([95bd2d4](https://github.com/stevearc/overseer.nvim/commit/95bd2d45af543238e25919ad2d9793a8cf61ac38))
+* disallow empty bundle name ([#223](https://github.com/stevearc/overseer.nvim/issues/223)) ([400e762](https://github.com/stevearc/overseer.nvim/commit/400e762648b70397d0d315e5acaf0ff3597f2d8b))
+* don't open new buffer when closing overseer task list ([5e84981](https://github.com/stevearc/overseer.nvim/commit/5e8498131867cd1b7c676ecdd1382ab2fd347dde))
+* remove type restriction when searching for justfile ([#222](https://github.com/stevearc/overseer.nvim/issues/222)) ([0be4966](https://github.com/stevearc/overseer.nvim/commit/0be4966c0bd2010eaabd5b4b8e34902807b756fb))
+* support 'note' and 'info' quickfix types in on_result_diagnostics ([#220](https://github.com/stevearc/overseer.nvim/issues/220)) ([4b811f8](https://github.com/stevearc/overseer.nvim/commit/4b811f8283dde37b38cb369a6397933c30eacaf3))
+
 ## [1.3.0](https://github.com/stevearc/overseer.nvim/compare/v1.2.0...v1.3.0) (2023-10-06)
 
 
